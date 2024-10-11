@@ -45,3 +45,15 @@ Input : 6
 
 
 Output : No loop detected
+
+## How to Run code:
+
+./run.sh
+
+> If permissions denied: 
+>> "zsh: permission denied: ./run.sh"
+
+>Run
+>> chmod +x run.sh
+ 
+
