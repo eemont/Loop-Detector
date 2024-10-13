@@ -63,7 +63,7 @@ If that also doesn't work, run code in online compiler.
 
 <code>Loop Detected</code>
 
-### Sample 3:
+### Sample 2:
 
 <code>Enter the number of recorded coordinates:</code>
 
