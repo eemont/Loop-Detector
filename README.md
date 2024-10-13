@@ -25,27 +25,6 @@ determine if there's a loop (cycle) in its path.
 Input: The number of recorded coordinates 𝑛 and 𝑛 pairs of coordinates.
 Output: "Loop detected" if a cycle exists, otherwise "No loop detected"
 
-## Samples :
-
-### Sample 1:
-Input : 7
-
-
-[(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 2), (4, 6)]
-
-Output : Loop detected
-
-### Sample 2:
-
-
-Input : 5
-
-
-[(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)]
-
-
-Output : No loop detected
-
 ## How to Run code:
 
 Run <code>./run.sh</code> command 
@@ -58,7 +37,9 @@ Run <code>./run.sh</code> command
 
 If that also doesn't work, run code in online compiler.
 
-## Running Program Input/Output:
+## Testing Program Input/Output:
+
+### Sample 1:
 
 <code>Enter the number of recorded coordinates:</code>
 
@@ -77,10 +58,31 @@ If that also doesn't work, run code in online compiler.
 <code>4 5</code>
 
 <code>5 2</code>
-3
+
 <code>4 6</code>
 
 <code>Loop Detected</code>
+
+### Sample 3:
+
+<code>Enter the number of recorded coordinates:</code>
+
+<code>5</code>
+
+<code>Enter the coordinate pairs:</code>
+
+<code>0 1</code>
+
+<code>1 2</code>
+
+<code>2 3</code>
+
+<code>3 4</code>
+
+<code>4 5</code>
+
+<code>No Loop Detected</code>
+
 
  
 
