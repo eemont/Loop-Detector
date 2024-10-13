@@ -78,13 +78,17 @@ int main()
     int n;
     // prompt user to enter number of coordinates
     cout << endl
-         << "Enter the number of recorded coordinates: " << endl;
+         << endl
+         << "Enter the number of recorded coordinates: " << endl
+         << endl;
     // user enters number of coordinates
     cin >> n;
 
     LoopDetector monitor(n);
     // prompt user to enter all coordinate pairs
-    cout << "Enter the coordinate pairs:" << endl;
+    cout << endl
+         << "Enter the coordinate pairs:" << endl
+         << endl;
 
     // this will read the coordinates that user inputs
     for (int i = 0; i < n; ++i)
@@ -97,12 +101,16 @@ int main()
     if (monitor.detectLoop())
     {
         // if loop detected, output loop detected
-        cout << "Loop detected" << endl;
+        cout << endl
+             << "Loop detected" << endl
+             << endl;
     }
     else
     {
         // if loop not detected, output no loop detected
-        cout << "No loop detected" << endl;
+        cout << endl
+             << "No loop detected" << endl
+             << endl;
     }
 
     return 0;
