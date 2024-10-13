@@ -38,7 +38,7 @@ Output : Loop detected
 ### Sample 2:
 
 
-Input : 6
+Input : 5
 
 
 [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)]
@@ -48,12 +48,39 @@ Output : No loop detected
 
 ## How to Run code:
 
-./run.sh
+Run <code>./run.sh</code> command 
 
 > If permissions denied: 
->> "zsh: permission denied: ./run.sh"
+>> error code : "zsh: permission denied: ./run.sh"
 
 >Run
 >> chmod +x run.sh
+
+If that also doesn't work, run code in online compiler.
+
+## Running Program Input/Output:
+
+<code>Enter the number of recorded coordinates:</code>
+
+<code>7</code>
+
+<code>Enter the coordinate pairs:</code>
+
+<code>0 1</code>
+
+<code>1 2</code>
+
+<code>2 3</code>
+
+<code>3 4</code>
+
+<code>4 5</code>
+
+<code>5 2</code>
+3
+<code>4 6</code>
+
+<code>Loop Detected</code>
+
  
 
